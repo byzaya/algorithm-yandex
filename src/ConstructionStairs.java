@@ -16,10 +16,10 @@ public class ConstructionStairs {
 
         int countOfUsingBlocks = 1;
         int countOfStairs = 1;
-        if(n == 0){
+        if (n == 0) {
             System.out.println(0);
         }
-        while(countOfUsingBlocks < n){
+        while (countOfUsingBlocks < n) {
             if (n - countOfUsingBlocks < countOfStairs + 1) {
                 break;
             }
