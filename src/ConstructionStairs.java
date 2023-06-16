@@ -4,12 +4,18 @@
 // По заданному числу блоков n определите максимальное количество ступенек в лесенке,
 // которую можно построить из этих блоков.
 
+// Формат ввода
+// Вводится одно число n (1 ≤ n ≤ 231 - 1)
+
+// Формат вывода
+// Выведите одно число — количество ступенек в лесенке.
+
 import java.util.Scanner;
 
 public class ConstructionStairs {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt(); // кол-во блоков для построения лестницы
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt(); // кол-во блоков для построения лестницы
 
         // лестница начинается с 1 блока
         // каждая следующая ступень должна быть на 1 больше предыдущего
@@ -27,5 +33,6 @@ public class ConstructionStairs {
             countOfUsingBlocks = countOfUsingBlocks + countOfStairs;
         }
         System.out.println(countOfStairs);
+        input.close();
     }
 }
