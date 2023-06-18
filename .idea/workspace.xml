@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="fix: add solution DifferenceInTime">
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution RepeatNumbers&#10;fix: replace solutions in package">
       <change afterPath="$PROJECT_DIR$/src/firstWeek/BuyAndSell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/secondWeek/RepeatNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BreakPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstWeek/BreakPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CanonicalPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstWeek/CanonicalPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConstructionStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstWeek/ConstructionStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DifferenceInTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstWeek/DifferenceInTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686854944510</updated>
-      <workItem from="1686854945775" duration="27283000" />
+      <workItem from="1686854945775" duration="28956000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -94,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687038149514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: add solution RepeatNumbers&#10;fix: replace solutions in package">
+      <created>1687042272557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687042272557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +108,7 @@
     <MESSAGE value="fix: add input.close()" />
     <MESSAGE value="fix: add solution break palindrome" />
     <MESSAGE value="fix: add solution DifferenceInTime" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add solution DifferenceInTime" />
+    <MESSAGE value="feat: add solution RepeatNumbers&#10;fix: replace solutions in package" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution RepeatNumbers&#10;fix: replace solutions in package" />
   </component>
 </project>
