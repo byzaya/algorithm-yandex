@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution MulticoloredSticks">
-      <change afterPath="$PROJECT_DIR$/src/secondWeek/Majority.java" afterDir="false" />
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution Majority">
+      <change afterPath="$PROJECT_DIR$/src/secondWeek/DeleteNumbers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/secondWeek/ReplacingWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686854944510</updated>
-      <workItem from="1686854945775" duration="35646000" />
+      <workItem from="1686854945775" duration="40122000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687089912151</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add solution Majority">
+      <created>1687092303034</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687092303034</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
     <MESSAGE value="feat: add solution RepeatNumbers&#10;fix: replace solutions in package" />
     <MESSAGE value="feat: add solution BuyAndSell" />
     <MESSAGE value="feat: add solution MulticoloredSticks" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution MulticoloredSticks" />
+    <MESSAGE value="feat: add solution Majority" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution Majority" />
   </component>
 </project>
