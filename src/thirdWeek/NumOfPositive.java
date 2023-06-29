@@ -31,19 +31,14 @@ public class NumOfPositive {
             first[i / 2] = input.nextInt();
             second[(i + 1) / 2] = input.nextInt();
         }
-        int a;
-        int b;
-        int solution = 0;
+
+        int[] prefixSum = new int[n + 1];
+        for (int i = 1; i <= n; i++) {
+            prefixSum[i] = prefixSum[i - 1] + (numbers[i] > 0 ? 1 : 0);
+        }
         for (int i = 0; i < q; i++) {
-            a = first[i];
-            b = second[i];
-            for (int j = a; j <= b; j++) {
-                if(numbers[j] > 0) {
-                    solution++;
-                }
-            }
+            int solution = prefixSum[second[i]] - prefixSum[first[i] - 1];
             System.out.println(solution);
-            solution = 0;
         }
     }
 }

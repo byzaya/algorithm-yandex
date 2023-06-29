@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution ReplacingWords">
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution NumOfPositive (Warning TL)">
       <change afterPath="$PROJECT_DIR$/src/thirdWeek/BumerZumer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/thirdWeek/Lights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thirdWeek/NumOfPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirdWeek/NumOfPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirdWeek/NumOfPositive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686854944510</updated>
       <workItem from="1686854945775" duration="43720000" />
-      <workItem from="1687809861816" duration="8601000" />
+      <workItem from="1687809861816" duration="8996000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -182,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687209694857</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: add solution NumOfPositive (Warning TL)">
+      <option name="closed" value="true" />
+      <created>1688045253703</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688045253703</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +207,7 @@
     <MESSAGE value="feat: add solution Majority" />
     <MESSAGE value="feat: add solution DeleteNumbers" />
     <MESSAGE value="feat: add solution ReplacingWords" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution ReplacingWords" />
+    <MESSAGE value="feat: add solution NumOfPositive (Warning TL)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution NumOfPositive (Warning TL)" />
   </component>
 </project>
