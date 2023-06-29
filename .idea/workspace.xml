@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution DeleteNumbers">
-      <change afterPath="$PROJECT_DIR$/src/secondWeek/ReplacingWords.java" afterDir="false" />
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution ReplacingWords">
+      <change afterPath="$PROJECT_DIR$/src/thirdWeek/BumerZumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thirdWeek/Lights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thirdWeek/NumOfPositive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +46,54 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.NumOfPositive">
+    <configuration name="BumerZumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thirdWeek.BumerZumer" />
+      <module name="algorithm-yandex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thirdWeek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thirdWeek.Lights" />
+      <module name="algorithm-yandex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thirdWeek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumOfPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thirdWeek.NumOfPositive" />
+      <module name="algorithm-yandex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thirdWeek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NumOfPositive" />
+        <item itemvalue="Application.Lights" />
+        <item itemvalue="Application.BumerZumer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686854944510</updated>
-      <workItem from="1686854945775" duration="43407000" />
+      <workItem from="1686854945775" duration="43720000" />
+      <workItem from="1687809861816" duration="8601000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -124,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687125185251</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: add solution ReplacingWords">
+      <created>1687209694857</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687209694857</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +199,7 @@
     <MESSAGE value="feat: add solution MulticoloredSticks" />
     <MESSAGE value="feat: add solution Majority" />
     <MESSAGE value="feat: add solution DeleteNumbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution DeleteNumbers" />
+    <MESSAGE value="feat: add solution ReplacingWords" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution ReplacingWords" />
   </component>
 </project>
