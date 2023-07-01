@@ -34,9 +34,20 @@ public class Hogwarts {
         }
 
         Arrays.sort(ingr, Collections.reverseOrder()); // сортировка по убыванию
+
         ArrayList<Integer> solutions = new ArrayList<>();
-        for (int i = 0; i < k; i++) {
-            for (int j = i; j < k; j++) {
+        for (int i = 0; i < n; i++) {
+            int left = i + 1;
+            int right = n - 1;
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+                if (ingr[mid] + ingr[i] >= ingr[i + 1]) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            }
+            for (int j = left; j < n; j++) {
                 if (i == j) {
                     solutions.add(ingr[i]);
                 } else {
@@ -44,11 +55,41 @@ public class Hogwarts {
                 }
             }
         }
+        solutions.addAll(Arrays.asList(ingr).subList(0, n));
         solutions.sort(Collections.reverseOrder());
-        int solution = 0;
+        long solution = 0;
         for (int i = 0; i < k; i++) {
             solution += solutions.get(i);
         }
         System.out.println(solution);
     }
 }
+
+//    public static void main(String[] args) {
+//        Scanner input = new Scanner(System.in);
+//        int n = input.nextInt();
+//        int k = input.nextInt();
+//        Integer[] ingr = new Integer[n];
+//        for (int i = 0; i < n; i++) {
+//            ingr[i] = input.nextInt();
+//        }
+//
+//        Arrays.sort(ingr, Collections.reverseOrder()); // сортировка по убыванию
+//
+//        ArrayList<Integer> solutions = new ArrayList<>();
+//        for (int i = 0; i < n; i++) {
+//            for (int j = i; j < n; j++) {
+//                if (i == j) {
+//                    solutions.add(ingr[i]);
+//                } else {
+//                    solutions.add(ingr[i] + ingr[j]);
+//                }
+//            }
+//        }
+//        solutions.sort(Collections.reverseOrder());
+//        long solution = 0;
+//        for (int i = 0; i < k; i++) {
+//            solution += solutions.get(i);
+//        }
+//        System.out.println(solution);
+//    }
