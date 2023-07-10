@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution Lights">
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution Hogwarts">
+      <change afterPath="$PROJECT_DIR$/src/fourWeek/GroupsAndClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fourWeek/Guests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thirdWeek/Hogwarts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirdWeek/Hogwarts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Hogwarts">
+  <component name="RunManager">
     <configuration name="BumerZumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thirdWeek.BumerZumer" />
       <module name="algorithm-yandex" />
@@ -130,7 +131,8 @@
       <updated>1686854944510</updated>
       <workItem from="1686854945775" duration="43720000" />
       <workItem from="1687809861816" duration="39064000" />
-      <workItem from="1688566207775" duration="762000" />
+      <workItem from="1688566207775" duration="944000" />
+      <workItem from="1689001569520" duration="3433000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -265,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688398673640</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: add solution Hogwarts">
+      <option name="closed" value="true" />
+      <created>1688569428609</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688569428609</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +300,7 @@
     <MESSAGE value="fix: add solution Hogwarts(RE)" />
     <MESSAGE value="fix: improve solution Hogwarts(RE)" />
     <MESSAGE value="feat: add solution Lights" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution Lights" />
+    <MESSAGE value="feat: add solution Hogwarts" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution Hogwarts" />
   </component>
 </project>
