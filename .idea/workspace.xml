@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution Hogwarts">
-      <change afterPath="$PROJECT_DIR$/src/fourWeek/GroupsAndClasses.java" afterDir="false" />
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution GroupsAndClasses">
       <change afterPath="$PROJECT_DIR$/src/fourWeek/Guests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -132,7 +131,7 @@
       <workItem from="1686854945775" duration="43720000" />
       <workItem from="1687809861816" duration="39064000" />
       <workItem from="1688566207775" duration="944000" />
-      <workItem from="1689001569520" duration="3433000" />
+      <workItem from="1689001569520" duration="15101000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -275,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688569428609</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: add solution GroupsAndClasses">
+      <option name="closed" value="true" />
+      <created>1689006732947</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1689006732947</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +308,7 @@
     <MESSAGE value="fix: improve solution Hogwarts(RE)" />
     <MESSAGE value="feat: add solution Lights" />
     <MESSAGE value="feat: add solution Hogwarts" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution Hogwarts" />
+    <MESSAGE value="feat: add solution GroupsAndClasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution GroupsAndClasses" />
   </component>
 </project>
