@@ -23,39 +23,73 @@ public class Guests {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        List<int[]> intervals = new ArrayList<>();
+        int[][] intervals = new int[n][2];
         for (int i = 0; i < n; i++) {
-            int a = scanner.nextInt();
-            int b = scanner.nextInt();
-            intervals.add(new int[]{a, b});
+            intervals[i][0] = scanner.nextInt();
+            intervals[i][1] = scanner.nextInt();
         }
+        int[][] intervalsCopy = intervals.clone();
+        // Сортируем интервалы по возрастанию левой границы (заезда гостей)
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 
-        List<int[]> intervalsCopy = new ArrayList<>(intervals);
-        intervals.sort(Comparator.comparingInt(a -> a[0])); // Сортируем интервалы по возрастанию левой границы (заезда гостей)
         int[] lastInterval = new int[]{-1, -1};
-        List<int[]> result = new ArrayList<>();
+        int[][] result = new int[n][2];
+        int resultSize = 0;
         for (int[] interval : intervals) {
             // Если текущий интервал начинается после окончания последнего интервала, то выбираем его
             if (interval[0] > lastInterval[1]) {
-                result.add(interval);
+                result[resultSize++] = interval;
                 lastInterval = interval;
             }
             // Иначе, если текущий интервал пересекается с последним интервалом, то выбираем тот, который заканчивается раньше
             else if (interval[1] <= lastInterval[1]) {
             } else {
                 interval[0] = lastInterval[1] + 1;
-                result.add(interval);
+                result[resultSize++] = interval;
                 lastInterval = interval;
             }
         }
 
-        Set<int[]> resultSet = new HashSet<>(result);
+        Set<int[]> resultSet = new HashSet<>(Arrays.asList(result));
         for (int[] interval : intervalsCopy) {
             if (resultSet.contains(interval)) {
                 System.out.println(interval[0] + " " + interval[1]);
             } else {
                 System.out.println("-1 -1");
             }
+            resultSet.remove(interval);
         }
     }
 }
+
+// решение на python
+
+// n = int(input())
+//intervals = []
+//for i in range(n):
+//    intervals.append(list(map(int, input().split())))
+//
+//intervalsCopy = intervals.copy()
+//intervals.sort(key=lambda x: x[0])
+//
+//lastInterval = [-1, -1]
+//result = []
+//resultSize = 0
+//for interval in intervals:
+//    if interval[0] > lastInterval[1]:
+//        result.append(interval)
+//        lastInterval = interval
+//    elif interval[1] <= lastInterval[1]:
+//        pass
+//    else:
+//        interval[0] = lastInterval[1] + 1
+//        result.append(interval)
+//        lastInterval = interval
+//
+//resultSet = set(map(tuple, result))
+//for interval in intervalsCopy:
+//    if tuple(interval) in resultSet:
+//        print(interval[0], interval[1])
+//    else:
+//        print("-1 -1")
+//    resultSet.discard(tuple(interval))
