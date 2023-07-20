@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution FilePath">
-      <change afterPath="$PROJECT_DIR$/src/fivthWeek/CowsAndBulls.java" afterDir="false" />
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution CowsAndBulls">
+      <change afterPath="$PROJECT_DIR$/src/fivthWeek/Mountains.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CowsAndBulls">
+  <component name="RunManager" selected="Application.Mountains">
     <configuration name="CowsAndBulls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fivthWeek.CowsAndBulls" />
       <module name="algorithm-yandex" />
@@ -84,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thirdWeek.Lights" />
+    <configuration name="Mountains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fivthWeek.Mountains" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thirdWeek.*" />
+          <option name="PATTERN" value="fivthWeek.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mountains" />
         <item itemvalue="Application.CowsAndBulls" />
         <item itemvalue="Application.FilePath" />
         <item itemvalue="Application.Trees" />
         <item itemvalue="Application.Hogwarts" />
-        <item itemvalue="Application.Lights" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +131,7 @@
       <workItem from="1686854945775" duration="43720000" />
       <workItem from="1687809861816" duration="39064000" />
       <workItem from="1688566207775" duration="944000" />
-      <workItem from="1689001569520" duration="38830000" />
+      <workItem from="1689001569520" duration="41824000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -322,14 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689602516298</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: add solution CowsAndBulls">
+      <option name="closed" value="true" />
+      <created>1689705364074</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1689705364074</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add solution task 1" />
     <MESSAGE value="feat: add solution task 2" />
     <MESSAGE value="fix: add input.close()" />
     <MESSAGE value="fix: add solution break palindrome" />
@@ -354,6 +361,7 @@
     <MESSAGE value="feat: add solution Trees" />
     <MESSAGE value="feat: add solution Socks" />
     <MESSAGE value="feat: add solution FilePath" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution FilePath" />
+    <MESSAGE value="feat: add solution CowsAndBulls" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution CowsAndBulls" />
   </component>
 </project>
