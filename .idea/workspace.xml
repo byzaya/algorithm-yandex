@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution Mountains">
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution Logs">
       <change afterPath="$PROJECT_DIR$/src/contest_intern_day_2023/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contest_intern_day_2023/Logs.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fivthWeek/DeleteString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,7 @@
       <workItem from="1688566207775" duration="944000" />
       <workItem from="1689001569520" duration="44511000" />
       <workItem from="1691151780255" duration="3000" />
-      <workItem from="1691407919382" duration="3527000" />
+      <workItem from="1691407919382" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -342,14 +340,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689862668948</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: add solution Logs">
+      <option name="closed" value="true" />
+      <created>1691411763340</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1691411763340</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: add input.close()" />
     <MESSAGE value="fix: add solution break palindrome" />
     <MESSAGE value="fix: add solution DifferenceInTime" />
     <MESSAGE value="feat: add solution RepeatNumbers&#10;fix: replace solutions in package" />
@@ -374,6 +379,7 @@
     <MESSAGE value="feat: add solution FilePath" />
     <MESSAGE value="feat: add solution CowsAndBulls" />
     <MESSAGE value="feat: add solution Mountains" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution Mountains" />
+    <MESSAGE value="feat: add solution Logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution Logs" />
   </component>
 </project>
