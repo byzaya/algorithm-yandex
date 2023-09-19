@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution MajorityNumber">
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution RemoveSmileys">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/RemoveSmileys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Yandex/LineReflection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yandex/AddBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/FindSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yandex/FindSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/MaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yandex/MaxConsecutiveOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/RemoveSmileys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yandex/RemoveSmileys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/ReorderNulls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yandex/ReorderNulls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yandex/SummaryRanges.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +57,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveSmileys">
+  <component name="RunManager" selected="Application.LineReflection">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.AddBinary" />
+      <option name="MAIN_CLASS_NAME" value="Yandex.AddBinary" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="Yandex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.MajorityNumber" />
+    <configuration name="LineReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Yandex.LineReflection" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="Yandex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,7 +89,7 @@
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="Yandex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +98,11 @@
       </method>
     </configuration>
     <configuration name="RemoveSmileys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.RemoveSmileys" />
+      <option name="MAIN_CLASS_NAME" value="Yandex.RemoveSmileys" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="Yandex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="SummaryRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.SummaryRanges" />
+      <option name="MAIN_CLASS_NAME" value="Yandex.SummaryRanges" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="Yandex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LineReflection" />
         <item itemvalue="Application.RemoveSmileys" />
         <item itemvalue="Application.RemoveDups" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.SummaryRanges" />
-        <item itemvalue="Application.MajorityNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +152,7 @@
       <workItem from="1693940978564" duration="1211000" />
       <workItem from="1694105983880" duration="1195000" />
       <workItem from="1694122138042" duration="624000" />
-      <workItem from="1694124866553" duration="8050000" />
+      <workItem from="1694124866553" duration="11302000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -449,14 +455,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695117785909</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="feat: add solution RemoveSmileys">
+      <option name="closed" value="true" />
+      <created>1695122374394</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1695122374394</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: add solution Cows" />
     <MESSAGE value="fix: add solution Hogwarts(RE)" />
     <MESSAGE value="fix: improve solution Hogwarts(RE)" />
     <MESSAGE value="feat: add solution Lights" />
@@ -481,6 +494,7 @@
     <MESSAGE value="feat: add solution ReorderNulls" />
     <MESSAGE value="feat: add solution SummaryRanges" />
     <MESSAGE value="feat: add solution MajorityNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution MajorityNumber" />
+    <MESSAGE value="feat: add solution RemoveSmileys" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution RemoveSmileys" />
   </component>
 </project>

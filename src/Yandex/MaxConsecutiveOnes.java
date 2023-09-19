@@ -1,4 +1,4 @@
-package training;
+package Yandex;
 
 public class MaxConsecutiveOnes {
     public static int findMaxOnesSubinterval(int[] arr) {

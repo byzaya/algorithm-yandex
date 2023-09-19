@@ -1,4 +1,4 @@
-package training;
+package Yandex;
 
 import java.util.Arrays;
 

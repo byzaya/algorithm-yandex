@@ -1,4 +1,4 @@
-package training;
+package Yandex;
 
 public class AddBinary {
     public static void main(String[] args) {

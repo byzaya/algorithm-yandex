@@ -1,4 +1,4 @@
-package training;
+package Yandex;
 
 public class FindSingle {
     public static void main(String[] args) {
