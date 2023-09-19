@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution Logs">
-      <change afterPath="$PROJECT_DIR$/src/contest_intern_day_2023/Game.java" afterDir="false" />
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution Game">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fivthWeek/DeleteString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/FindSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/MaxConsecutiveOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/MaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/RemoveDups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/ReorderNulls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/SummaryRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/contest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,25 +42,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Game">
-    <configuration name="CowsAndBulls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fivthWeek.CowsAndBulls" />
+}]]></component>
+  <component name="RunManager" selected="Application.RemoveDups">
+    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.AddBinary" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fivthWeek.*" />
+          <option name="PATTERN" value="training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fourthWeek.FilePath" />
+    <configuration name="RemoveDups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.RemoveDups" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fourthWeek.*" />
+          <option name="PATTERN" value="training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="contest_intern_day_2023.Game" />
+    <configuration name="SummaryRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.SummaryRanges" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contest_intern_day_2023.*" />
+          <option name="PATTERN" value="training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="contest_intern_day_2023.Logs" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.Test" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contest_intern_day_2023.*" />
+          <option name="PATTERN" value="training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mountains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fivthWeek.Mountains" />
+    <configuration name="contest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.contest" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fivthWeek.*" />
+          <option name="PATTERN" value="training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Logs" />
-        <item itemvalue="Application.Mountains" />
-        <item itemvalue="Application.CowsAndBulls" />
-        <item itemvalue="Application.FilePath" />
+        <item itemvalue="Application.RemoveDups" />
+        <item itemvalue="Application.AddBinary" />
+        <item itemvalue="Application.SummaryRanges" />
+        <item itemvalue="Application.contest" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +149,13 @@
       <workItem from="1688566207775" duration="944000" />
       <workItem from="1689001569520" duration="44511000" />
       <workItem from="1691151780255" duration="3000" />
-      <workItem from="1691407919382" duration="3942000" />
+      <workItem from="1691407919382" duration="4270000" />
+      <workItem from="1691489916982" duration="365000" />
+      <workItem from="1692102741234" duration="8780000" />
+      <workItem from="1693940978564" duration="1211000" />
+      <workItem from="1694105983880" duration="1195000" />
+      <workItem from="1694122138042" duration="624000" />
+      <workItem from="1694124866553" duration="4976000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -348,14 +370,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691411763340</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: add solution Game">
+      <option name="closed" value="true" />
+      <created>1691411891086</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1691411891086</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: add solution break palindrome" />
     <MESSAGE value="fix: add solution DifferenceInTime" />
     <MESSAGE value="feat: add solution RepeatNumbers&#10;fix: replace solutions in package" />
     <MESSAGE value="feat: add solution BuyAndSell" />
@@ -380,6 +409,7 @@
     <MESSAGE value="feat: add solution CowsAndBulls" />
     <MESSAGE value="feat: add solution Mountains" />
     <MESSAGE value="feat: add solution Logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution Logs" />
+    <MESSAGE value="feat: add solution Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution Game" />
   </component>
 </project>
