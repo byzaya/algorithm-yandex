@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 //Дан массив a из n целых чисел. Напишите программу, которая найдет число, которое встречается в массиве наибольшее число раз.
-public class contest {
+public class MajorityNumber {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
