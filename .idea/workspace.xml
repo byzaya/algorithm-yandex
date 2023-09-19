@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution Game">
+    <list default="true" id="b680e566-9e95-479e-86b0-722647fba7da" name="Changes" comment="feat: add solution MajorityNumber">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fivthWeek/DeleteString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/AddBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/FindSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/MaxConsecutiveOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/MaxProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/RemoveDups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/ReorderNulls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/SummaryRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/contest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/RemoveSmileys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +51,22 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveDups">
+  <component name="RunManager" selected="Application.RemoveSmileys">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="training.AddBinary" />
+      <module name="algorithm-yandex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorityNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.MajorityNumber" />
       <module name="algorithm-yandex" />
       <extension name="coverage">
         <pattern>
@@ -87,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveSmileys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.RemoveSmileys" />
+      <module name="algorithm-yandex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SummaryRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="training.SummaryRanges" />
       <module name="algorithm-yandex" />
@@ -100,39 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.Test" />
-      <module name="algorithm-yandex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="contest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.contest" />
-      <module name="algorithm-yandex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveSmileys" />
         <item itemvalue="Application.RemoveDups" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.SummaryRanges" />
-        <item itemvalue="Application.contest" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MajorityNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +146,7 @@
       <workItem from="1693940978564" duration="1211000" />
       <workItem from="1694105983880" duration="1195000" />
       <workItem from="1694122138042" duration="624000" />
-      <workItem from="1694124866553" duration="4976000" />
+      <workItem from="1694124866553" duration="8050000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add solution task 1">
       <created>1686856894303</created>
@@ -378,23 +369,93 @@
       <option name="project" value="LOCAL" />
       <updated>1691411891086</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat: add solution AddBinary">
+      <option name="closed" value="true" />
+      <created>1695117659872</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117659872</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: add solution contest">
+      <option name="closed" value="true" />
+      <created>1695117667088</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117667088</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: add solution DeleteString">
+      <option name="closed" value="true" />
+      <created>1695117678888</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117678888</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat: add solution FindSingle">
+      <option name="closed" value="true" />
+      <created>1695117688473</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117688473</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat: add solution MaxConsecutiveOnes">
+      <option name="closed" value="true" />
+      <created>1695117697794</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117697794</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat: add solution MaxProduct">
+      <option name="closed" value="true" />
+      <created>1695117705234</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117705234</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat: add solution RemoveDups">
+      <option name="closed" value="true" />
+      <created>1695117712192</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117712192</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: add solution ReorderNulls">
+      <option name="closed" value="true" />
+      <created>1695117721509</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117721509</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: add solution SummaryRanges">
+      <option name="closed" value="true" />
+      <created>1695117727222</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117727222</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: add solution MajorityNumber">
+      <option name="closed" value="true" />
+      <created>1695117785909</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117785909</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: add solution DifferenceInTime" />
-    <MESSAGE value="feat: add solution RepeatNumbers&#10;fix: replace solutions in package" />
-    <MESSAGE value="feat: add solution BuyAndSell" />
-    <MESSAGE value="feat: add solution MulticoloredSticks" />
-    <MESSAGE value="feat: add solution Majority" />
-    <MESSAGE value="feat: add solution DeleteNumbers" />
-    <MESSAGE value="feat: add solution ReplacingWords" />
-    <MESSAGE value="feat: add solution NumOfPositive (Warning TL)" />
-    <MESSAGE value="fix: add solution NumOfPositive" />
-    <MESSAGE value="fix: add solution BumerZumer" />
     <MESSAGE value="fix: add solution Cows" />
     <MESSAGE value="fix: add solution Hogwarts(RE)" />
     <MESSAGE value="fix: improve solution Hogwarts(RE)" />
@@ -410,6 +471,16 @@
     <MESSAGE value="feat: add solution Mountains" />
     <MESSAGE value="feat: add solution Logs" />
     <MESSAGE value="feat: add solution Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution Game" />
+    <MESSAGE value="feat: add solution AddBinary" />
+    <MESSAGE value="feat: add solution contest" />
+    <MESSAGE value="feat: add solution DeleteString" />
+    <MESSAGE value="feat: add solution FindSingle" />
+    <MESSAGE value="feat: add solution MaxConsecutiveOnes" />
+    <MESSAGE value="feat: add solution MaxProduct" />
+    <MESSAGE value="feat: add solution RemoveDups" />
+    <MESSAGE value="feat: add solution ReorderNulls" />
+    <MESSAGE value="feat: add solution SummaryRanges" />
+    <MESSAGE value="feat: add solution MajorityNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add solution MajorityNumber" />
   </component>
 </project>
