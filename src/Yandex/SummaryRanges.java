@@ -4,29 +4,41 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SummaryRanges {
-    public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 5, 7, 8, 10, 11};
-        List<String> ans = new ArrayList<>();
-        int s = nums[0];
-        int e;
+    public List<String> summaryRanges(int[] nums) {
+        List<String> result = new ArrayList<>();
+        // проверка на пустой массив
+        if (nums == null || nums.length == 0) {
+            return result;
+        }
 
+        int start = nums[0]; // начало текущего диапазона
+        int end = nums[0];   // конец текущего диапазона
+
+        // начинаем со 2 элемента
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i] - nums[i - 1] > 1) {
-                e = nums[i - 1];
-                if (s == e) {
-                    ans.add(String.valueOf(s));
+            if (nums[i] == end + 1) {
+                // Текущий элемент продолжает текущий диапазон
+                end = nums[i];
+            } else {
+                // Текущий элемент не является частью текущего диапазона, завершить текущий диапазон
+                if (start == end) {
+                    result.add(String.valueOf(start));
                 } else {
-                    ans.add(s + "->" + e);
+                    result.add(start + "->" + end);
                 }
-                s = nums[i];
+
+                // Начать новый диапазон
+                start = nums[i];
+                end = nums[i];
             }
         }
 
-        // Добавляем последний элемент или диапазон, если он существует
-        if (s == nums[nums.length - 1]) {
-            ans.add(String.valueOf(s));
+        // Добавить последний диапазон
+        if (start == end) {
+            result.add(String.valueOf(start));
         } else {
-            ans.add(s + "->" + nums[nums.length - 1]);
+            result.add(start + "->" + end);
         }
+        return result;
     }
 }
